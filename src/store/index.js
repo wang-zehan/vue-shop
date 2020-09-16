@@ -7,6 +7,7 @@ import menu from "./modules/menu"
 import roie from "./modules/roie"
 import user from "./modules/user"
 import category from "./modules/category"
+import specs from "./modules/specs"
 let store = new Vuex.Store({
     state:{
         iscollapse:false    //是否折叠
@@ -17,7 +18,7 @@ let store = new Vuex.Store({
         }
     },
     modules:{
-        menu,roie,user,category
+        menu,roie,user,category,specs
     }
 })
 export default store
